@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Gelatin Silver</title>
+
+  <!-- STYLESHEETS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles/styles.css">
+  <!-- VENDOR SCRIPTS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
+
+  <!-- APPLICATION SCRIPTS -->
+  <script src="scripts/app.js"></script>
+
+</head>
+
+<body>
+  <div class="container-fluid">
+    <h1 class="text-center"><img src="/images/leica.png" /></h1>
+    <h2 class="text-center"> Gelatin ø Silver </h2>
+    <div class="row">
+      <div class="col-md-12">
+        <form class="form-inline text-center" id="newPhotoForm">
+          <div class="form-group">
+            <label for="image"></label>
+            <input type="text" class="form-control" name="image" placeholder="Add Image">
+          </div>
+          <div class="form-group">
+            <label for="type"></label>
+            <input type="text" class="form-control" name="type" placeholder="Photo Type">
+          </div>
+          <div class="form-group">
+            <label for="location"></label>
+            <input type="text" class="form-control" name="location" placeholder="Location">
+          </div>
+          <div class="form-group">
+            <label for="description"></label>
+            <input type="text" class="form-control" name="description" placeholder="Description">
+          </div>
+          <button type="submit" class="btn btn-default">Create</button>
+        </form>
+        <hr>
+        <div id="photoTarget">
+          <script id="photos-template" type="text/x-handlebars-template">
+            {{#each photos}}
+            <div class="col-sm-3 col-md-3 col-lg-4">
+              <div class="thumbnail bg">
+                <img src="{{image}}" class="img-responsive" alt="Responsive image">
+                <div class="caption">
+                  <h4> {{type}} </h4>
+                  <h5> {{location}} </h5>
+                  <h5> {{film_type}} </h5>
+                  <h5> {{settings}} </h5>
+                  <h5> {{camera}} </h5>
+                  <h5> {{description}} </h5>
+                  <button type="button" name="button" class="deleteBtn btn btn-danger pull-right" data-id={{_id}}>
+                    Delete</button>
+                </div>
+              </div>
+            </div>
+          {{/each}}
+          </script>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="text-center logo">
+        <a href="https://mxnkpl.com" class="thumbnailgif">
+          <img src="images/yt-mx-logo.png" class="mx">
+        </a>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
