@@ -1,0 +1,25 @@
+{
+  "name": "gelatinsilver",
+  "version": "1.0.0",
+  "description": "Analogue Reciprocity for visual phototransduction",
+  "main": "index.js",
+  "scripts": {
+    "test": "photoncollisions"
+  },
+  "keywords": [
+    "Photons",
+    "Reciprocity",
+    "Analogue",
+    "Phototransduction"
+  ],
+  "author": "Max Nakpil",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "bower": "^1.8.8",
+    "express": "^4.17.1",
+    "express-session": "^1.16.2",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.6.0"
+  }
+}
