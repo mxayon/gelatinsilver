@@ -16,6 +16,13 @@ var tacotruck = [
 ];
 
 // ROUTES
+
+// Serve Static Files
+// '/images', '/scripts', '/styles'
+app.use(express.static('public'));
+
+
+// HTML endpoints
 app.get('/', function (req, res) {
   res.send('Hello World!');
 });
@@ -23,5 +30,5 @@ app.get('/', function (req, res) {
 
 // SERVER START
 app.listen(process.env.PORT || 3000, function () {
-  console.log('Example app listening at http://localhost:3000/');
+  console.log('Info beaming @ http://localhost:3000/');
 });
