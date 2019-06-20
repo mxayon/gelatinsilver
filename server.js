@@ -44,8 +44,8 @@ app.get('/', function homepage(req, res) {
   res.sendFile(__dirname + '/views/index.html');
 });
 
-
+// process.env.PORT ||
 // SERVER START
-app.listen(3000, function () {
+app.listen(process.env.PORT || 3000, function () {
   console.log('Info beaming @ http://localhost:3000/');
 });
