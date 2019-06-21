@@ -66,7 +66,7 @@ app.get('/api', function api_index(req, res) {
       {method: "GET", path: "/api/photos/:id", description: "Photographs by id"},
       {method: "PUT", path: "/api/photos/:id", description: "Edit photographs"},
       {method: "POST", path: "/api/photos", description: "Add new photo"},
-      {method: "DELTE", path: "/api/photos/:id", description: "Delete photo"}, 
+      {method: "DELTE", path: "/api/photos/:id", description: "Delete photo"},
     ]
   });
 });
@@ -75,6 +75,6 @@ app.get('/api', function api_index(req, res) {
 
 // process.env.PORT ||
 // SERVER START
-app.listen(3000, function () {
+app.listen(process.env.PORT || 3000, function () {
   console.log('Info beaming @ http://localhost:3000/');
 });
