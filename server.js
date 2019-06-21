@@ -38,14 +38,43 @@ var tacotruck = [
 // '/images', '/scripts', '/styles'
 app.use(express.static('public'));
 
+// Calling temp data on server
+app.get('/api/cat', function (req, res) {
+  res.json(cat);
+});
+// Calling v2 temp
+app.get('/api/tacotruck', function (req, res) {
+  res.json(tacotruck);
+});
 
 // HTML endpoints
 app.get('/', function homepage(req, res) {
   res.sendFile(__dirname + '/views/index.html');
 });
 
+// Json api endpoints
+app.get('/api', function api_index(req, res) {
+  // TODO: Document all your api endpoints below
+  res.json({
+    message: "Mx ",
+    documentation_url: "https://github.com/mxayon/gelatinsilver/blob/master/README.md", // CHANGE ME
+    base_url: "https://gelatinsilver.herokuapp.com/", // CHANGE ME
+    endpoints: [
+      {method: "GET", path: "/api", description: "Describes all available endpoints"},
+      {method: "GET", path: "/api/profile", description: "Data about me"},
+      {method: "GET", path: "/api/photos", description: "Photographs"},
+      {method: "GET", path: "/api/photos/:id", description: "Photographs by id"},
+      {method: "PUT", path: "/api/photos/:id", description: "Edit photographs"},
+      {method: "POST", path: "/api/photos", description: "Add new photo"},
+      {method: "DELTE", path: "/api/photos/:id", description: "Delete photo"}, 
+    ]
+  });
+});
+
+
+
 // process.env.PORT ||
 // SERVER START
-app.listen(process.env.PORT || 3000, function () {
+app.listen(3000, function () {
   console.log('Info beaming @ http://localhost:3000/');
 });
