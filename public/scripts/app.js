@@ -1,4 +1,4 @@
-console.log(" Sanity check - Multiphoton Ionization from the inner orbitals -> for ro-vibrational levels of an excited electronic state")
+console.log(" Sanity check - Multiphoton Ionization from the inner orbitals -> for ro-vibrational levels of an excited electronic state");
 
 var template;
 var $photosList;
@@ -9,12 +9,14 @@ $(document).ready(function(){
   // compile handlebars template
   var source = $('#photos-template').html();
   template = Handlebars.compile(source);
+
   $.ajax({
     method: 'GET',
     url: '/api/photos',
     success: handleSuccess,
     error: handleError
   });
+
   // new photo form
   // delete photo
   // update photo with comment
@@ -29,13 +31,14 @@ $(document).ready(function(){
     // append html to the view
     $photosList.append(photosHtml);
   }
+
   function handleSuccess(json) {
-    console.log('Transmitting Photon Gallery');
     allPhotos = json;
     render();
+    console.log('Transmitting Photon Gallery');
   }
+  
   function handleError(xhr, status, errorThrown) {
-    alert("Error in transmistion!")
     console.log('Error Info: ' + errorThrown);
     console.log('Status: ' + status);
     console.log(xhr);
