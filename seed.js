@@ -4,7 +4,7 @@ var db = require('./models');
 
 var photos_list = [
   {
-  image: "images/goldengatebridgenitelight.jpg",
+  image: "images/goldengatebridgenitelight.png",
   type: "Film",
   location: "Golden Gate Bridge, SF",
   film_type: "ISO 400",
@@ -13,7 +13,7 @@ var photos_list = [
   description: "Late night lights"
   },
   {
-  image: "images/prstepsbeachwaves.jpg",
+  image: "images/prstepsbeachwaves.png",
   type: "Film",
   location: "Rincon, Puerto Rico",
   film_type: "ISO 400",
@@ -22,7 +22,7 @@ var photos_list = [
   description: "Waves on steps beach in Rincon"
   },
   {
-  image: "images/goldengatebridge.jpg",
+  image: "images/goldengatebridge.png",
   type: "Film",
   location: "San Francisco",
   film_type: "ISO 200",
@@ -31,7 +31,7 @@ var photos_list = [
   description: "Afternoon time crossing the bridge"
   },
   {
-  image: "images/groundsrcc.jpg",
+  image: "images/groundsrcc.png",
   type: "Film",
   location: "San Rafael, CA",
   film_type: "ISO 200",
@@ -40,7 +40,7 @@ var photos_list = [
   description: " "
   },
   {
-  image: "images/srccfaucetwaterdrip.jpg",
+  image: "images/srccfaucetwaterdrip.png",
   type: "Film",
   location: "San Rafael, CA",
   film_type: "ISO 200",
@@ -49,7 +49,7 @@ var photos_list = [
   description: "waves on steps beach in Rincon"
   },
   {
-  image: "images/srcclongpostISO200.jpg",
+  image: "images/srcclongpostISO200.png",
   type: "Film",
   location: "San Rafael, CA",
   film_type: "ISO 100",
