@@ -72,7 +72,6 @@ app.get('/api/profile', function api_profile(req, res) {
 app.get('/api/photos', function api_photos(req, res) {
   ////sends all photos as json request
   db.Photo.find()
-    .populate('photos')
     .exec(function(err, photos){
       if (err) {
         return console.log("Photon gallery (/api/photos): " + err);
