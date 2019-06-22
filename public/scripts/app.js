@@ -30,12 +30,16 @@ $(document).ready(function(){
     $photosList.append(photosHtml);
   }
   function handleSuccess(json) {
+    console.log('Transmitting Photon Gallery');
     allPhotos = json;
     render();
   }
-  function handleError(e) {
-    console.log('uh oh');
-    $('#photoTarget').text('Failed to load PHOTON GALLERY, Check Server Connection...');
+  function handleError(xhr, status, errorThrown) {
+    alert("Error in transmistion!")
+    console.log('Error Info: ' + errorThrown);
+    console.log('Status: ' + status);
+    console.log(xhr);
+    $('#photoTarget').text('Failed to load PHOTON GALLERY, Check Server Connection - Console Log Error Log... -cmd.opt.i-');
   }
   // new photo success
   // new photo error
