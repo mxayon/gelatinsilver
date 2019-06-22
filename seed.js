@@ -63,12 +63,17 @@ db.Photo.remove({}, function(err, photos){
   if (err) {
     console.log("error occured in remove", err);
   } else {
-    console.log('removed all photos');
+  console.log('removed all photos');
+
     /////////create new records for photos
-    db.Photo.create(photos_list, function(err, photos){
-      if (err) {return console.log('err', err); }
-      console.log("created", photos.length, "photos");
-      process.exit();
+  db.Photo.create(photos_list, function(err, photos){
+    if (err) {
+       console.log('error:', err);
+       return;
+    }
+    console.log("created", photos.length, "photos");
+
+    process.exit();
     });
   }
 });
