@@ -38,9 +38,9 @@ app.get('/api', function api_index(req, res) {
     base_url: "https://gelatinsilver.herokuapp.com/", // proj url
     endpoints: [
       {method: "GET", path: "/api", description: "Describes all available endpoints"},
-      {method: "GET", path: "/api/profile", description: "Data about MX"},
-      {method: "GET", path: "/api/photos", description: "All Photographic Reciprocites"},
-      {method: "GET", path: "/api/photos/:id", description: "PhotoReciprocity by id"},
+      {method: "GET", path: "/api/profile", description: "About"},
+      {method: "GET", path: "/api/photos", description: "All Photos"},
+      {method: "GET", path: "/api/photos/:id", description: "Photo by id"},
       {method: "PUT", path: "/api/photos/:id", description: "Edit Photo"},
       {method: "POST", path: "/api/photos", description: "Add new Photo"},
       {method: "DELTE", path: "/api/photos/:id", description: "Delete Photo"},
@@ -55,16 +55,16 @@ app.get('/api/profile', function api_profile(req, res) {
     github_link: "https://github.com/mxayon",
     github_profile_image: "https://avatars2.githubusercontent.com/u/19865986?s=460&v=4",
     current_city: "San Francisco",
-    trade: [
-      {tool: "Creative Suite", task: "Illustrator and Photoshop Hacker", training: "School / Hueristic"},
+    trade: [{
+      tool: "Creative Suite", task: "Illustrator and Photoshop Hacker",
+      training: "School / Hueristic"},
       {tool: "Motion5 Animation Studio", task: "Animation Hacker", training: "Hueristic / On the Job"},
       {tool: "Ruby on Rails", task: "Full-Stack Prototypes (Favorite Stack)", training: "School"},
       {tool: "Node | JS | Express (MEN Stack)", task: "Full-Stack Prototype Creator", training: "School"},
       {tool: "Node | Angular | JS (MEAN Stack)", task: "Full-Stack Prototypes w/ Forms", training: "School"},
       {tool: "FINALCUT PRO | videography", task: "Video producer from shooting to final edits", training: "On the Job / School"},
       {tool: "HTML5 | CSS", task: "Front-End Hacker who prioritizes Continuity", training: "School / On the Job"},
-      {tool: "Python | Pandas | Flask", task:"Picked up Python to fix curiosity on how data can drive design", training: "Part-time intro course"}
-    ]
+      {tool: "Python | Pandas | Flask", task:"Picked up Python to fix curiosity on how data can drive design", training: "Part-time intro course"}]
   });
 });
 
