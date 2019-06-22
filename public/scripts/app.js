@@ -1,17 +1,14 @@
 console.log(" Sanity check - Multiphoton Ionization from the inner orbitals -> for ro-vibrational levels of an excited electronic state")
+
+var template;
+var $photosList;
+var allPhotos = [];
+
 $(document).ready(function(){
   $photosList = $('#photoTarget');
   // compile handlebars template
   var source = $('#photos-template').html();
   template = Handlebars.compile(source);
-  //api connect for data on server
-  // do i need this for profile if no html is being rendered?
-  // $.ajax({
-  //   method: 'GET',
-  //   url: '/api/profile',
-  //   success: handleSuccess,
-  //   error: handleError
-  // });
   $.ajax({
     method: 'GET',
     url: '/api/photos',
