@@ -17,21 +17,6 @@ app.use(function(req, res, next) {
 // ************ DATABASE **********/
 var db = require('./models');
 
-
-// temp data
-var cat = [
-  'Pumpkin',
-  'Jack',
-  'Maxycat'
-];
-
-var tacotruck = [
-  'TruckGas',
-  'StoveGas',
-  'Ingredients',
-  'Utensils'
-];
-
 // ***************  ROUTES ********* /
 
 // Serve Static Files
