@@ -38,14 +38,6 @@ var tacotruck = [
 // '/images', '/scripts', '/styles'
 app.use(express.static('public'));
 
-// Calling temp data on server
-app.get('/api/cat', function (req, res) {
-  res.json(cat);
-});
-// Calling v2 temp
-app.get('/api/tacotruck', function (req, res) {
-  res.json(tacotruck);
-});
 
 // HTML endpoints
 app.get('/', function homepage(req, res) {
@@ -56,20 +48,54 @@ app.get('/', function homepage(req, res) {
 app.get('/api', function api_index(req, res) {
   // TODO: Document all your api endpoints below
   res.json({
-    message: "Mx ",
-    documentation_url: "https://github.com/mxayon/gelatinsilver/blob/master/README.md", // CHANGE ME
-    base_url: "https://gelatinsilver.herokuapp.com/", // CHANGE ME
+    message: "Gelatin Silver Processed Endpoints",
+    documentation_url: "https://github.com/mxayon/gelatinsilver/blob/master/README.md", // proj readme
+    base_url: "https://gelatinsilver.herokuapp.com/", // proj url
     endpoints: [
       {method: "GET", path: "/api", description: "Describes all available endpoints"},
-      {method: "GET", path: "/api/profile", description: "Data about me"},
-      {method: "GET", path: "/api/photos", description: "Photographs"},
-      {method: "GET", path: "/api/photos/:id", description: "Photographs by id"},
-      {method: "PUT", path: "/api/photos/:id", description: "Edit photographs"},
-      {method: "POST", path: "/api/photos", description: "Add new photo"},
-      {method: "DELTE", path: "/api/photos/:id", description: "Delete photo"},
+      {method: "GET", path: "/api/profile", description: "Data about MX"},
+      {method: "GET", path: "/api/photos", description: "All Photographic Reciprocites"},
+      {method: "GET", path: "/api/photos/:id", description: "PhotoReciprocity by id"},
+      {method: "PUT", path: "/api/photos/:id", description: "Edit Photo"},
+      {method: "POST", path: "/api/photos", description: "Add new Photo"},
+      {method: "DELTE", path: "/api/photos/:id", description: "Delete Photo"},
     ]
   });
 });
+
+app.get('/api/profile', function api_profile(req, res) {
+  // TODO: Document all your api endpoints below
+  res.json({
+    name: "MX NAKPIL",
+    github_link: "https://github.com/mxayon",
+    github_profile_image: "https://avatars2.githubusercontent.com/u/19865986?s=460&v=4",
+    current_city: "San Francisco",
+    trade: [
+      {tool: "Creative Suite", task: "Illustrator and Photoshop Hacker", training: "School / Hueristic"},
+      {tool: "Motion5 Animation Studio", task: "Animation Hacker", training: "Hueristic / On the Job"},
+      {tool: "Ruby on Rails", task: "Full-Stack Prototypes (Favorite Stack)", training: "School"},
+      {tool: "Node | JS | Express (MEN Stack)", task: "Full-Stack Prototype Creator", training: "School"},
+      {tool: "Node | Angular | JS (MEAN Stack)", task: "Full-Stack Prototypes w/ Forms", training: "School"},
+      {tool: "FINALCUT PRO | videography", task: "Video producer from shooting to final edits", training: "On the Job / School"},
+      {tool: "HTML5 | CSS", task: "Front-End Hacker who prioritizes Continuity", training: "School / On the Job"},
+      {tool: "Python | Pandas | Flask", task:"Picked up Python to fix curiosity on how data can drive design", training: "Part-time intro course"}
+    ]
+  });
+});
+
+// get all photos
+app.get('/api/photos', function api_photos(req, res) {
+  ////sends all photos as json request
+  db.Photo.find({ })
+    .populate('photos')
+    .exec(function(err, photos){
+      if (err) {
+        return console.log("Photon gallery (/api/photos): " + err);
+      }
+      res.json(photos);
+    });
+});
+
 
 
 
