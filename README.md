@@ -60,10 +60,10 @@ An attempt to record and develop a better understanding of [reciprocity in photo
 
 ## M<sup>X</sup>
 
-![Max Logo](mx-seafoam.png)
+![Max Logo](mx-seafoam.png =50)
 
 <br   />
 <div align="center">
-<a href="https//mxnkpl.com/">MXNKPL.COM</a> | <a href="https//mxnkpl.com/blog/" >BLOG </a>
+<a href="https//mxnkpl.com/"> MXNKPL.COM</a> | <a href="https//mxnkpl.com/blog/" >BLOG </a>
 
 </div>
