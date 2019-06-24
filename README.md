@@ -64,5 +64,6 @@ An attempt to record and develop a better understanding of [reciprocity in photo
 
 <br   />
 <div align="center">
-[Max Nakpil](https//mxnkpl.com) | [Travel Log](https//mxnkpl.com/blog)
+<a href="https//mxnkpl.com/">MXNKPL.COM</a> | <a href="https//mxnkpl.com/blog/" >BLOG </a>
+
 </div>
