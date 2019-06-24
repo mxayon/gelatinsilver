@@ -1,4 +1,6 @@
-
+<div align="center">
+<img src="public/images/leicaglow.png" style="width:auto; max-height:25px;"></img>
+</div>
 
 ## GELATIN SILVER:
 
@@ -30,7 +32,7 @@ Before a paper is exposed, the image layer is a clear gelatin matrix holding the
 
 > .. gelatin silver printing is an example of "latent" printing, in which an image is activated by light, but is not revealed until submerged in a developer solution. In this case, a negative image is projected onto paper treated with light-sensitive chemicals: silver halide suspended in gelatin (a viscous liquid made from animal collagen). A series of chemical baths will subsequently reveal the latent image, halt the development, remove its sensitivity to light, and fine-tune contrast.
 
-                                                     [Artspace on Gelatin Silver Processing](https://www.artspace.com/magazine/art_101/collecting-101/whats-a-chromogenic-pigment-or-gelatin-print-the-ultimate-guide-to-digital-and-chemical-photo-54752)
+- [Artspace on Gelatin Silver Processing](https://www.artspace.com/magazine/art_101/collecting-101/whats-a-chromogenic-pigment-or-gelatin-print-the-ultimate-guide-to-digital-and-chemical-photo-54752)
 
 
 <br  />
@@ -61,8 +63,7 @@ An attempt to record and develop a better understanding of [reciprocity in photo
 ## M<sup>X</sup>
 
 <div align="center">
-<img src="mx-seafoam.png"></img>
-![Max Logo](mx-seafoam.png)
+<img src="mx-seafoam.png" style="width:auto; max-height:25px;"></img>
 </div>
 <br   />
 <div align="center">
