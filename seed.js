@@ -8,7 +8,7 @@ var photos_list = [
   type: "Film",
   location: "Golden Gate Bridge, SF",
   film_type: "ISO 400",
-  settings: " ",
+  settings: "f/2.0, 1/20 ",
   camera: "Cannon AE-1 Program / 50mm",
   description: "Late night lights"
   },
@@ -17,7 +17,7 @@ var photos_list = [
   type: "Film",
   location: "Rincon, Puerto Rico",
   film_type: "ISO 400",
-  settings: " ",
+  settings: "f/13.0, 1/200 ",
   camera: "Cannon AE-1 Program / 50mm",
   description: "Waves on steps beach in Rincon"
   },
@@ -26,7 +26,7 @@ var photos_list = [
   type: "Film",
   location: "San Francisco",
   film_type: "ISO 200",
-  settings: " ",
+  settings: "f/4.0, 1/150",
   camera: "Cannon AE-1 Program / 50mm",
   description: "Afternoon time crossing the bridge"
   },
@@ -35,7 +35,7 @@ var photos_list = [
   type: "Film",
   location: "San Rafael, CA",
   film_type: "ISO 200",
-  settings: " ",
+  settings: "f/3.0, 1/300",
   camera: "Cannon AE-1 Program / 50mm",
   description: " "
   },
@@ -44,7 +44,7 @@ var photos_list = [
   type: "Film",
   location: "San Rafael, CA",
   film_type: "ISO 200",
-  settings: " ",
+  settings: "f/2.0, 1/200",
   camera: "Cannon AE-1 Program / 50mm",
   description: "waves on steps beach in Rincon"
   },
@@ -53,9 +53,9 @@ var photos_list = [
   type: "Film",
   location: "San Rafael, CA",
   film_type: "ISO 100",
-  settings: " ",
+  settings: "f/5.5, 1/300",
   camera: "Cannon Program AE-1, 50mm",
-  description: "Posts"
+  description: "Posts in docking yard"
   }
   ];
 //////remove messy seeds
@@ -70,9 +70,9 @@ db.Photo.remove({}, function(err, photos){
     if (err) {
        console.log('error:', err);
        return;
+    } else {
+      console.log("created", photos.length, "photos");
     }
-    console.log("created", photos.length, "photos");
-
     process.exit();
     });
   }
