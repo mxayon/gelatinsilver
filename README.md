@@ -1,8 +1,10 @@
-![bg](#9fe2bf)
+[bg](#9fe2bf)
+
+
+## GELATIN SILVER:
 
 *Making things for Visual Phototransduction in the Retinal Mosiac*
 ---
-## GELATIN SILVER:
 <br>
 A collection of captured photographic reciprocity.
 <br>
@@ -19,10 +21,10 @@ Gelatin Silver is a repository of analogue photographs, including a detailed inv
 <br>
 
 
-## [About](#about)Gelatin Silver
+## [About Gelatin Silver](#about)
 The **Gelatin Silver Process** is one of the earliest forms of developing images on light-sensitive paper.<br>
 Before a paper is exposed, the image layer is a clear gelatin matrix holding the light-sensitive silver halides. - <br>
-###### [Technology](https://en.wikipedia.org/wiki/Gelatin_silver_process#Technology)
+[Technology](https://en.wikipedia.org/wiki/Gelatin_silver_process#Technology)
 |
 [Unionpedia](https://en.unionpedia.org/Gelatin_silver_process) | [History](https://smarthistory.org/the-gelatin-silver-process-10-of-12/)
 
@@ -30,7 +32,7 @@ Before a paper is exposed, the image layer is a clear gelatin matrix holding the
 ![Leica Icon](/public/images/leica.png)
 
 
-## [Photographic](#photodatabase) Reciprocity Database: Settings Repository
+## [Photographic Reciprocity Database: Settings Repository](#photodatabase)
 An attempt to record and develop a better understanding of [reciprocity in photography.](https://www.picturecorrect.com/tips/understanding-reciprocity-in-photography/)
 <br>
 
