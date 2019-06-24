@@ -34,7 +34,7 @@ Before a paper is exposed, the image layer is a clear gelatin matrix holding the
 An attempt to record and develop a better understanding of [reciprocity in photography.](https://www.picturecorrect.com/tips/understanding-reciprocity-in-photography/)
 <br>
 
-
+![gelatin home][gelatinsilverhome.jpeg]
 
 
 
