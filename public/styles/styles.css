@@ -18,7 +18,7 @@ body {
   border-color: transparent;
   display: inline-grid;
   height: 555px;
-  border-radius: 30px;
+  border-radius: 0px;
 }
 
 .img-responsive {
@@ -28,6 +28,7 @@ body {
   border-radius: 5px;
 }
 
+
 h1 {
   margin-top: 100px;
   text-align: center;
@@ -35,6 +36,10 @@ h1 {
   text-shadow: 90px;
   font-family: 'Questrial', sans-serif;
   font-size: 50px
+}
+
+h1 .rainglow{
+  display: inline;
 }
 
 h4, h5 {
@@ -53,6 +58,7 @@ h4, h5 {
 .thumbnailgif {
   float: none;
   background-color: transparent;
+  padding: 10%;
 }
 
 .mx {

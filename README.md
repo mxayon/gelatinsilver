@@ -13,11 +13,6 @@ An analogue recording of photons frozen in time for the visual photo transductio
 
 ---
 
-<br  />
-
-[About Gelatin Silver][#about] | [Photographic Database][#photodatabase]| [Resources for Phototransduction][#phototransduction] | [Mx][#mx]
-
-<br  />
 
 Gelatin Silver is a repository of analogue photographs, including a detailed inventory of each photos settings.
 
@@ -25,7 +20,6 @@ Gelatin Silver is a repository of analogue photographs, including a detailed inv
 
 
 ##  About Gelatin Silver
-[#about]
 The **_Gelatin Silver Process_** is one of the earliest forms of developing images on light-sensitive paper.<br>
 Before a paper is exposed, the image layer is a clear gelatin matrix holding the light-sensitive silver halides. - <br>
 [Technology](https://en.wikipedia.org/wiki/Gelatin_silver_process#Technology)
@@ -40,25 +34,24 @@ Before a paper is exposed, the image layer is a clear gelatin matrix holding the
 
 
 <br  />
-![Leica Icon](/public/images/leica.png)
 
+![Sketched out cam](/Users/mxayon/development/gelatin/public/images/photocam.png)
 <br>
 
-**_Though this mostly refers to B&W photography, it is possible to print color with this process;_**
-[Silver Gelatin Colour](https://www.analoguelab.com.au/techniques-and-materials/silver-gelatin-colour/)
+**_Though this mostly refers to B&W photography, it is possible to print in color..._**
+<br>
+ - [Silver Gelatin Colour](https://www.analoguelab.com.au/techniques-and-materials/silver-gelatin-colour/)
 <br>
 
 ## Photographic Reciprocity Database: Settings Repository
-[#photodatabase]
 An attempt to record and develop a better understanding of [reciprocity in photography.](https://www.picturecorrect.com/tips/understanding-reciprocity-in-photography/)
 <br>
 
-![gelatin home](gelatinsilver-home.png)
+![Gelatin Silver Homepage](/Users/mxayon/development/gelatin/gelatinsilver-home.png)
 
 
 
 ## Resources for Phototransduction
-[#phototransduction]:
 * [Visual Phototransduction](https://reactome.org/content/detail/R-HSA-2187338)
 * [Photoreceptor Cells](https://en.wikipedia.org/wiki/Photoreceptor_cell)
 * [The Reciprocity Rule](https://www.apogeephoto.com/the-reciprocity-rule-in-photography/)
@@ -68,6 +61,6 @@ An attempt to record and develop a better understanding of [reciprocity in photo
 
 ## M<sup>X</sup>
 [#mx]
-![Max Logo](mx-seafoam.png)
+![Max Logo](/Users/mxayon/development/gelatin/mx-seafoam.png)
 <br   />
 [Max Nakpil](https//mxnkpl.com) | [Travel Log](https//mxnkpl.com/blog)
