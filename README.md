@@ -1,3 +1,5 @@
+[bg][#9fe2bf]
+
 # Gelatin Silver Processing: For Analogue Reciprocity for Visual Phototransduction in the Retinal Mosiac
 
 # GELATIN SILVER: A collection of captured photographic reciprocity.
@@ -35,8 +37,13 @@ A record in developing a better understanding of [reciprocity in photography.](h
 
 
 ## Resources for Phototransduction
-
+* [Visual Phototransduction](https://reactome.org/content/detail/R-HSA-2187338)
+* [Photoreceptor Cells](https://en.wikipedia.org/wiki/Photoreceptor_cell)
+* [The Reciprocity Rule](https://www.apogeephoto.com/the-reciprocity-rule-in-photography/)
 
 
 
 ## Mx
+![Max Logo][yt-mx-logo.png]
+<br>
+[Max Nakpil](https//mxnkpl.com) | [Travel Log](https//mxnkpl.com/blog)
