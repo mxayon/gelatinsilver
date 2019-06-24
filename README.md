@@ -30,12 +30,12 @@ Before a paper is exposed, the image layer is a clear gelatin matrix holding the
 
 > .. gelatin silver printing is an example of "latent" printing, in which an image is activated by light, but is not revealed until submerged in a developer solution. In this case, a negative image is projected onto paper treated with light-sensitive chemicals: silver halide suspended in gelatin (a viscous liquid made from animal collagen). A series of chemical baths will subsequently reveal the latent image, halt the development, remove its sensitivity to light, and fine-tune contrast.
 
-                                                    - [Artspace on Gelatin Silver Processing][1]
+                                                    - [Artspace on Gelatin Silver Processing](https://www.artspace.com/magazine/art_101/collecting-101/whats-a-chromogenic-pigment-or-gelatin-print-the-ultimate-guide-to-digital-and-chemical-photo-54752)
 
 
 <br  />
 
-![Sketched out cam](/Users/mxayon/development/gelatin/public/images/photocam.png)
+![Sketched out cam](public/images/photocam.png)
 <br>
 
 **_Though this mostly refers to B&W photography, it is possible to print in color..._**
@@ -47,7 +47,7 @@ Before a paper is exposed, the image layer is a clear gelatin matrix holding the
 An attempt to record and develop a better understanding of [reciprocity in photography.](https://www.picturecorrect.com/tips/understanding-reciprocity-in-photography/)
 <br>
 
-![Gelatin Silver Homepage](/Users/mxayon/development/gelatin/gelatinsilver-home.png)
+![Gelatin Silver Homepage](home.png)
 
 
 
@@ -56,11 +56,13 @@ An attempt to record and develop a better understanding of [reciprocity in photo
 * [Photoreceptor Cells](https://en.wikipedia.org/wiki/Photoreceptor_cell)
 * [The Reciprocity Rule](https://www.apogeephoto.com/the-reciprocity-rule-in-photography/)
 
-[1]: https://www.artspace.com/magazine/art_101/collecting-101/whats-a-chromogenic-pigment-or-gelatin-print-the-ultimate-guide-to-digital-and-chemical-photo-54752
 
 
 ## M<sup>X</sup>
-[#mx]
-![Max Logo](/Users/mxayon/development/gelatin/mx-seafoam.png)
+
+![Max Logo](mx-seafoam.png)
+
 <br   />
+<div align="center">
 [Max Nakpil](https//mxnkpl.com) | [Travel Log](https//mxnkpl.com/blog)
+</div>
