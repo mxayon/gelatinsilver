@@ -15,7 +15,7 @@ An analogue recording of photons frozen in time for the visual photo transductio
 
 ---
 
-### [About Gelatin Silver](#about) | [Photographic Database](#photodatabase) | [Resources for Phototransduction](#phototransduction) | [Mx](#mx)
+### [About Gelatin Silver][#about]| [Photographic Database][#photodatabase]| [Resources for Phototransduction][#phototransduction] | [Mx][#mx]
 
 Gelatin Silver is a repository of analogue photographs, including a detailed inventory of each photos settings.
 
@@ -24,7 +24,7 @@ Gelatin Silver is a repository of analogue photographs, including a detailed inv
 
 ##  About Gelatin Silver
 [#about]
-The *Gelatin Silver Process* is one of the earliest forms of developing images on light-sensitive paper.<br>
+The **_Gelatin Silver Process_** is one of the earliest forms of developing images on light-sensitive paper.<br>
 Before a paper is exposed, the image layer is a clear gelatin matrix holding the light-sensitive silver halides. - <br>
 [Technology](https://en.wikipedia.org/wiki/Gelatin_silver_process#Technology)
 |
@@ -44,17 +44,15 @@ An attempt to record and develop a better understanding of [reciprocity in photo
 
 
 ## Resources for Phototransduction
-[#phototransduction]
+[#phototransduction]:
 * [Visual Phototransduction](https://reactome.org/content/detail/R-HSA-2187338)
 * [Photoreceptor Cells](https://en.wikipedia.org/wiki/Photoreceptor_cell)
 * [The Reciprocity Rule](https://www.apogeephoto.com/the-reciprocity-rule-in-photography/)
 
 
 
-## Mx
+## M<sup>X</sup>
 [#mx]
-<div class=".bg-dark-gray">
 ![Max Logo](yt-mx-logo.png)
 <br>
 [Max Nakpil](https//mxnkpl.com) | [Travel Log](https//mxnkpl.com/blog)
-</div>
