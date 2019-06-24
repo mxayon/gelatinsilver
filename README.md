@@ -21,7 +21,8 @@ Gelatin Silver is a repository of analogue photographs, including a detailed inv
 <br>
 
 
-## [About Gelatin Silver](#about)
+##  About Gelatin Silver
+(#about)
 The **Gelatin Silver Process** is one of the earliest forms of developing images on light-sensitive paper.<br>
 Before a paper is exposed, the image layer is a clear gelatin matrix holding the light-sensitive silver halides. - <br>
 [Technology](https://en.wikipedia.org/wiki/Gelatin_silver_process#Technology)
@@ -32,7 +33,8 @@ Before a paper is exposed, the image layer is a clear gelatin matrix holding the
 ![Leica Icon](/public/images/leica.png)
 
 
-## [Photographic Reciprocity Database: Settings Repository](#photodatabase)
+## Photographic Reciprocity Database: Settings Repository
+[#photodatabase]
 An attempt to record and develop a better understanding of [reciprocity in photography.](https://www.picturecorrect.com/tips/understanding-reciprocity-in-photography/)
 <br>
 
@@ -40,14 +42,16 @@ An attempt to record and develop a better understanding of [reciprocity in photo
 
 
 
-## Resources for [Phototransduction](#phototransduction)
+## Resources for Phototransduction
+(#phototransduction)
 * [Visual Phototransduction](https://reactome.org/content/detail/R-HSA-2187338)
 * [Photoreceptor Cells](https://en.wikipedia.org/wiki/Photoreceptor_cell)
 * [The Reciprocity Rule](https://www.apogeephoto.com/the-reciprocity-rule-in-photography/)
 
 
 
-## [Mx](#mx)
+## Mx
+[#mx]
 <span style="color:#9fe2bf">
 ![Max Logo](yt-mx-logo.png)
 </span>
