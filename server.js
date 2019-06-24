@@ -29,6 +29,8 @@ app.get('/', function homepage(req, res) {
   res.sendFile(__dirname + '/views/index.html');
 });
 
+
+
 // Json api endpoints
 app.get('/api', function api_index(req, res) {
   // TODO: Document all your api endpoints below

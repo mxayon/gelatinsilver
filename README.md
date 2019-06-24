@@ -13,6 +13,11 @@ An analogue recording of photons frozen in time for the visual photo transductio
 
 <br>
 
+<p><a href="https://commons.wikimedia.org/wiki/File:1415_Retinal_Isomers.jpg#/media/File:1415_Retinal_Isomers.jpg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/1415_Retinal_Isomers.jpg/1200px-1415_Retinal_Isomers.jpg" alt="1415 Retinal Isomers.jpg"></a><br>By OpenStax College - Anatomy &amp; Physiology, Connexions Web site. <a rel="nofollow" class="external free" href="http://cnx.org/content/col11496/1.6/">http://cnx.org/content/col11496/1.6/</a>, Jun 19, 2013., <a href="https://creativecommons.org/licenses/by/3.0" title="Creative Commons Attribution 3.0">CC BY 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=30148001">Link</a></p>
+
+[The Reciprocity Rule](https://www.apogeephoto.com/the-reciprocity-rule-in-photography/) | [Photoreceptor Cell](https://en.wikipedia.org/wiki/Photoreceptor_cell) | [Phototransduction](https://en.wikipedia.org/wiki/Photoreceptor_cell)
+
+
 ---
 
 
@@ -24,7 +29,7 @@ Gelatin Silver is a repository of analogue photographs, including a detailed inv
 ##  About Gelatin Silver
 The **_Gelatin Silver Process_** is one of the earliest forms of developing images on light-sensitive paper.<br>
 Before a paper is exposed, the image layer is a clear gelatin matrix holding the light-sensitive silver halides. - <br>
-[Technology](https://en.wikipedia.org/wiki/Gelatin_silver_process#Technology)
+[Processing Technology](https://en.wikipedia.org/wiki/Gelatin_silver_process#Technology)
 |
 [Unionpedia](https://en.unionpedia.org/Gelatin_silver_process) | [History](https://smarthistory.org/the-gelatin-silver-process-10-of-12/)
 
@@ -56,8 +61,9 @@ An attempt to record and develop a better understanding of [reciprocity in photo
 ## Resources for Phototransduction
 * [Visual Phototransduction](https://reactome.org/content/detail/R-HSA-2187338)
 * [Photoreceptor Cells](https://en.wikipedia.org/wiki/Photoreceptor_cell)
-* [The Reciprocity Rule](https://www.apogeephoto.com/the-reciprocity-rule-in-photography/)
 
+
+<br   />
 
 
 ## M<sup>X</sup>
