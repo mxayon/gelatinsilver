@@ -53,8 +53,8 @@ An attempt to record and develop a better understanding of [reciprocity in photo
 
 ## Mx
 [#mx]
-<span style="color:#9fe2bf">
+<div class=".bg-dark-gray">
 ![Max Logo](yt-mx-logo.png)
-</span>
 <br>
 [Max Nakpil](https//mxnkpl.com) | [Travel Log](https//mxnkpl.com/blog)
+</div>
