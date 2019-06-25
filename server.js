@@ -73,8 +73,12 @@ app.get('/api/photos', function api_photos(req, res) {
   ////sends all photos as json request
   db.Photo.find()
     .exec(function(err, photos){
-      if (err) { return console.log("Photon gallery (/api/photos): " + err); }
+      if (err) {
+        return console.log("Photon gallery (/api/photos): " + err);
+      }
       res.json(photos);
+    .catch(err =>
+      res.status(400).json({}));
     });
 });
 
