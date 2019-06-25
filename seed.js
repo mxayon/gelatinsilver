@@ -59,7 +59,7 @@ var photos_list = [
   }
 ];
 //////remove messy seeds
-db.Photo.remove({}, function(err, photos){
+db.Photo.deleteMany({}, function(err, photos){
   if (err) {
     console.log("error occured in remove", err);
   } else {
