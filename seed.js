@@ -57,7 +57,7 @@ var photos_list = [
   camera: "Cannon Program AE-1, 50mm",
   description: "Posts in docking yard"
   }
-  ];
+];
 //////remove messy seeds
 db.Photo.remove({}, function(err, photos){
   if (err) {
