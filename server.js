@@ -25,7 +25,7 @@ app.use(express.static('public'));
 
 
 // HTML endpoints
-app.get('/', function homepage(req, res) {
+app.get('/', function homepage(req, res, next) {
   res.sendFile(__dirname + '/views/index.html');
 });
 

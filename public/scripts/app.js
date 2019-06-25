@@ -38,10 +38,13 @@ $(document).ready(function(){
     render();
   }
 
-  function handleError(e) {
-    console.log('Error Info: ' + e);
-    $('#photoTarget').text('Failed to load PHOTON GALLERY, Check Server Connection - Console Log Error Log... -cmd.opt.i-');
-  }
+  function handleError (err, req, res, next) {
+    if (res.headersSent) {
+      return next(err);
+    }
+    res.status(500);
+    res.render('error', { error: err });
+  };
   // new photo success
   // new photo error
   // delete photo success
