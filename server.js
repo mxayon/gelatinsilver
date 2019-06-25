@@ -69,20 +69,16 @@ app.get('/api/profile', function api_profile(req, res) {
 });
 
 // get all photos
-app.get('/api/photos', function api_photos(req, res) {
+app.get('/api/photos', function api_photos(req, res, next){
   ////sends all photos as json request
-  db.Photo.find()
-    .exec(function(err, photos){
-      if (err) {
-        return console.log("Photon gallery (/api/photos): " + err);
-      }
-      res.json(photos);
-    .catch(err =>
-      res.status(400).json({}));
-    });
+  db.Photo.find(function (err, photos){
+    if (err) {
+      next(err) // Pass errors to Express.
+    } else {
+      res.send(photos);
+    }
+  });
 });
-
-
 
 
 // process.env.PORT ||
