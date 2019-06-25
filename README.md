@@ -7,13 +7,14 @@
 **Making things for Visual Phototransduction in the Retinal Mosiac**
 
 <br>
-A collection of captured photographic reciprocity.
+The Gelatin Silver app is a collection of instances detailed to study photography reciprocity. Please feel free to add to the collection expanding the visual knowledge base of reciprocity laws.
 <br>
-An analogue recording of photons frozen in time for the visual photo transduction happening in the retinal mosaic wall.
-
+<br  />
+The receiving end of these analogue recordings experience phototransduction processing the photons in the retinal mosaic wall.
 <br>
 
-<p><a href="https://commons.wikimedia.org/wiki/File:1415_Retinal_Isomers.jpg#/media/File:1415_Retinal_Isomers.jpg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/1415_Retinal_Isomers.jpg/1200px-1415_Retinal_Isomers.jpg" alt="1415 Retinal Isomers.jpg"></a><br>By OpenStax College - Anatomy &amp; Physiology, Connexions Web site. <a rel="nofollow" class="external free" href="http://cnx.org/content/col11496/1.6/">http://cnx.org/content/col11496/1.6/</a>, Jun 19, 2013., <a href="https://creativecommons.org/licenses/by/3.0" title="Creative Commons Attribution 3.0">CC BY 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=30148001">Link</a></p>
+<p><a href="https://commons.wikimedia.org/wiki/File:1415_Retinal_Isomers.jpg#/media/File:1415_Retinal_Isomers.jpg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/1415_Retinal_Isomers.jpg/1200px-1415_Retinal_Isomers.jpg" alt="1415 Retinal Isomers.jpg"></a><br>By OpenStax College - Anatomy &amp; Physiology, Connexions Web site.
+<br> <a rel="nofollow" class="external free" href="http://cnx.org/content/col11496/1.6/">http://cnx.org/content/col11496/1.6/</a>, Jun 19, 2013., <a href="https://creativecommons.org/licenses/by/3.0" title="Creative Commons Attribution 3.0">CC BY 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=30148001">Link</a></p>
 
 [The Reciprocity Rule](https://www.apogeephoto.com/the-reciprocity-rule-in-photography/) | [Photoreceptor Cell](https://en.wikipedia.org/wiki/Photoreceptor_cell) | [Phototransduction](https://en.wikipedia.org/wiki/Photoreceptor_cell)
 
@@ -21,9 +22,9 @@ An analogue recording of photons frozen in time for the visual photo transductio
 ---
 
 
-Gelatin Silver is a repository of analogue photographs, including a detailed inventory of each photos settings.
+Gelatin Silver is a repository of such events, including a detailed inventory of each photos settings.
 
-<br>
+<br   />
 
 
 ##  About Gelatin Silver
