@@ -33,15 +33,13 @@ $(document).ready(function(){
   }
 
   function handleSuccess(json) {
+    console.log('Transmitting Photon Gallery');
     allPhotos = json;
     render();
-    console.log('Transmitting Photon Gallery');
   }
-  
-  function handleError(xhr, status, errorThrown) {
-    console.log('Error Info: ' + errorThrown);
-    console.log('Status: ' + status);
-    console.log(xhr);
+
+  function handleError(e) {
+    console.log('Error Info: ' + e);
     $('#photoTarget').text('Failed to load PHOTON GALLERY, Check Server Connection - Console Log Error Log... -cmd.opt.i-');
   }
   // new photo success

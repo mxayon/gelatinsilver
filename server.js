@@ -29,8 +29,6 @@ app.get('/', function homepage(req, res) {
   res.sendFile(__dirname + '/views/index.html');
 });
 
-
-
 // Json api endpoints
 app.get('/api', function api_index(req, res) {
   // TODO: Document all your api endpoints below
@@ -75,9 +73,7 @@ app.get('/api/photos', function api_photos(req, res) {
   ////sends all photos as json request
   db.Photo.find()
     .exec(function(err, photos){
-      if (err) {
-        return console.log("Photon gallery (/api/photos): " + err);
-      }
+      if (err) { return console.log("Photon gallery (/api/photos): " + err); }
       res.json(photos);
     });
 });
