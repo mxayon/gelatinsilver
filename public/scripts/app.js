@@ -38,12 +38,12 @@ $(document).ready(function(){
     render();
   }
 
-  function handleError (e) {
+  function handleError(err) {
     if (res.headersSent) {
-      return next(e);
+      return next(err);
     }
     res.status(500);
-    res.render('error', { error: e });
+    res.render('error', { error: err });
   };
   // new photo success
   // new photo error
