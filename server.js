@@ -1,10 +1,10 @@
-var express = require('express');
-var app = express();
+const express = require('express');
+const app = express();
 
 // parse incoming URL encoded from data
 // populate req.body obj
-var bodyParser = require('body-parser');
-app.use(bodyParser.urlencoded({extended: true}));
+const bodyParser = require('body-parser');
+app.use(bodyParser.urlencoded({extended: false}));
 
 // allow cross origin requests
 // https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS
@@ -15,7 +15,7 @@ app.use(function(req, res, next) {
 });
 
 // ************ DATABASE **********/
-var db = require('./models');
+const db = require('./models');
 
 // ***************  ROUTES ********* /
 
@@ -60,7 +60,7 @@ app.get('/api/profile', function api_profile(req, res) {
       training: "School / Hueristic"},
       {tool: "Motion5 Animation Studio", task: "Animation Hacker", training: "Hueristic / On the Job"},
       {tool: "Ruby on Rails", task: "Full-Stack Prototypes (Favorite Stack)", training: "School"},
-      {tool: "Node | JS | Express (MEN Stack)", task: "Full-Stack Prototype Creator", training: "School"},
+      {tool: "Node | JS | Express", task: "Full-Stack Prototype Creator", training: "School"},
       {tool: "Node | Angular | JS (MEAN Stack)", task: "Full-Stack Prototypes w/ Forms", training: "School"},
       {tool: "FINALCUT PRO | videography", task: "Video producer from shooting to final edits", training: "On the Job / School"},
       {tool: "HTML5 | CSS", task: "Front-End Hacker who prioritizes Continuity", training: "School / On the Job"},
@@ -79,7 +79,6 @@ app.get('/api/photos', function api_photos(req, res, next){
     }
   });
 });
-
 
 // process.env.PORT ||
 // SERVER START

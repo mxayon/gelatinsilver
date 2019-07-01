@@ -66,8 +66,11 @@ db.Photo.deleteMany({}, function(err, photos){
     console.log('removed all photos');
     /////////create new records for photos
     db.Photo.create(photos_list, function(err, photos){
-      if (err) {return console.log('error:', err); }
-      console.log("created", photos.length, "photos");
+      if (err) {
+        return console.log('error:', err);
+      } else {
+        console.log("created", photos.length, "photos");  
+      }
       process.exit();
     });
   }
