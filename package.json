@@ -23,7 +23,7 @@
     "handlebars": "^4.1.2",
     "jquery": "^3.4.1",
     "method-override": "^3.0.0",
-    "mongoose": "^5.6.0",
+    "mongoose": "^5.7.5",
     "node": "^12.4.0"
   },
   "devDependencies": {
